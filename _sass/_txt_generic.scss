@@ -1,0 +1,51 @@
+/*
+    C-TXT
+    Composant générique CSS ITADS
+    https://github.com/ita-design-system/c-txt.scss
+*/
+// SCSS map
+$briks-components-generic: (
+    // Nom du composant
+    txt: (
+        // Composant activé true ou false
+        enabled: true,
+        // Responsive activé true ou false
+        responsive: true,
+        // Liste des propriétés c-flex par défaut
+        defaults: (
+            font-family:var(ita-ff-lead-400),
+            font-size: var(ita-fs-3),
+            color: var(ita-c-neutral-100),
+        ),
+        // Rendu:
+        // c-txt {
+        //     --ita-gap: 0px,
+        //     gap: var(--ita-gap),
+        //     display: flex,
+        //     flex-wrap: wrap,
+        // }
+        // Liste des modifieurs contenant chacun une liste de propriétés qui
+        // soit surchargent les propriétés par défaut
+        // soit ajoutent des propriétés
+        // soit les deux
+        modifiers: (
+            // Text alignment modifier
+            ta-center: (
+                // c-txt m-ta-center
+                text-algin: center
+            ),
+            ta-left:(
+                // c-txt m-ta-left
+                text-align: left
+            ),
+            ta-right:(
+                // c-txt m-ta-right
+                text-align: right
+            ),
+            ta-justify:(
+                // c-txt m-ta-justify
+                text-align: justify
+            ),
+        )
+    )
+);

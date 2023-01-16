@@ -46,6 +46,13 @@ $briks-components-generic: (
                 // c-txt m-ta-justify
                 text-align: justify
             ),
+            // Font size modifier
+            //Il doit y avoir autant de modifieurs que de font-sizes defaults (--ita-total-amount-of-fractions)
+            // Permet de s'adapter à n'importe quel nombre de font sizes
+            fs-1:(
+                //c-txt m-fs-1
+                --ita-fs: 1
+            ),
         )
     )
 );

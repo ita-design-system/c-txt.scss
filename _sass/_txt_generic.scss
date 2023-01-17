@@ -11,19 +11,12 @@ $briks-components-generic: (
         enabled: true,
         // Responsive activé true ou false
         responsive: true,
-        // Liste des propriétés c-flex par défaut
+        // Liste des propriétés c-txt par défaut
         defaults: (
             font-family:var(ita-ff-lead-400),
             font-size: var(ita-fs-3),
             color: var(ita-c-neutral-100),
         ),
-        // Rendu:
-        // c-txt {
-        //     --ita-gap: 0px,
-        //     gap: var(--ita-gap),
-        //     display: flex,
-        //     flex-wrap: wrap,
-        // }
         // Liste des modifieurs contenant chacun une liste de propriétés qui
         // soit surchargent les propriétés par défaut
         // soit ajoutent des propriétés
@@ -31,27 +24,255 @@ $briks-components-generic: (
         modifiers: (
             // Text alignment modifier
             ta-center: (
-                // c-txt m-ta-center
-                text-algin: center
+                //c-txt m-ta-center
+                text-align: center
             ),
             ta-left:(
-                // c-txt m-ta-left
+                //c-txt m-ta-left
                 text-align: left
             ),
             ta-right:(
-                // c-txt m-ta-right
+                //c-txt m-ta-right
                 text-align: right
             ),
             ta-justify:(
-                // c-txt m-ta-justify
+                //c-txt m-ta-justify
                 text-align: justify
             ),
-            // Font size modifier
-            //Il doit y avoir autant de modifieurs que de font-sizes defaults (--ita-total-amount-of-fractions)
-            fs-1:(
-                //c-txt m-fs-1
-                --ita-fs: 1
+            //text decoration modifier
+            td-under:(
+                //c-txt m-td-under
+                text-decoration: underline
             ),
-        )
-    )
-);
+            td-line:(
+                //c-txt m-td-line
+                text-decoration: line-through
+            ),
+            td-none:(
+                //c-txt m-td-none
+                text-decoration: none
+            ),
+            //overflow modifier
+            o-visible:(
+                //c-txt m-o-visible
+                overflow: visible
+            ),
+            o-hidden:(
+                //c-txt m-o-hidden
+                overflow: hidden
+            ),
+            o-scroll:(
+                //c-txt m-o-scroll
+                overflow: scroll
+            ),
+            o-auto:(
+                //c-txt m-o-auto
+                overflow: auto
+            ),
+            //text-overflow modifier
+            to-clip:(
+                //c-txt m-to-clip
+                text-overflow: clip
+            ),
+            to-ellipsis:(
+                //c-txt m-to-ellipsis
+                text-overflow: ellipsis
+            ),
+            // word-break modifier
+            wb-normal:(
+                //c-txt m-wb-normal
+                word-break: normal
+            ),
+            wb-break-all:(
+                //c-txt m-wb-break-all
+                word-break: break-all
+            ),
+            wb-keep-all:(
+                //c-txt m-wb-keep-all
+                word-break: keep-all
+            ),
+            // text-transform modifier
+            tt-none:(
+                //c-txt m-tt-none
+                text-transform: none
+            ),
+            tt-capitalize:(
+                //c-txt m-tt-capitalize
+                text-transform: capitalize
+            ),
+            tt-uppercase:(
+                //c-txt m-tt-uppercase
+                text-transform: uppercase
+            ),
+            tt-lowercase:(
+                //c-txt m-tt-lowercase
+                text-transform: lowercase
+            ),
+            // white-space modifier
+            ws-normal:(
+                //c-txt m-ws-normal
+                white-space: normal
+            ),
+            ws-nowrap:(
+                //c-txt m-ws-nowrap
+                white-space: nowrap
+            ),
+            ws-pre:(
+                //c-txt m-ws-pre
+                white-space: pre
+            ),
+            ws-pre-wrap:(
+                //c-txt m-ws-pre-wrap
+                white-space: pre-wrap
+            ),
+            ws-pre-line:(
+                //c-txt m-ws-pre-line
+                white-space: pre-line
+            ),
+            ws-break-spaces:(
+                //c-txt m-ws-break-spaces
+                white-space: break-spaces
+            ),
+            // line-height modifier
+            lh-0:(
+                //c-txt m-lh-0
+                line-height: 0
+            ),
+            lh-1:(
+                //c-txt m-lh-1
+                line-height: 1em
+            ),
+            lh-2:(
+                //c-txt m-lh-2
+                line-height: 1.2em
+            ),
+            lh-3:(
+                //c-txt m-lh-3
+                line-height: 1.3em
+            ),
+            lh-4:(
+                //c-txt m-lh-4
+                line-height: 1.4em
+            ),
+            lh-5:(
+                //c-txt m-lh-5
+                line-height: 1.5em
+            ),
+            lh-6:(
+                //c-txt m-lh-6
+                line-height: 1.6em
+            ),
+            // vertical align modifier
+            va-baseline:(
+                //c-txt m-va-baseline
+                vertical-align: baseline
+            ),
+            va-sub:(
+                //c-txt m-va-sub
+                vertical-align: sub
+            ),
+            va-super:(
+                //c-txt m-va-super
+                vertical-align: super
+            ),
+            va-text-top:(
+                //c-txt m-va-text-top
+                vertical-align: text-top
+            ),
+            va-text-bottom:(
+                //c-txt m-va-text-bottom
+                vertical-align: text-bottom
+            ),
+            va-middle:(
+                //c-txt m-va-middle
+                vertical-align: middle
+            ),
+            va-top:(
+                //c-txt m-va-top
+                vertical-align: top
+            ),
+            va-bottom:(
+                //c-txt m-va-bottom
+                vertical-align: bottom
+            ),
+            // font-style modifier
+            fs-normal: (
+                //c-txt m-fs-normal
+                font-style: normal
+            ),
+            fs-italic: (
+                //c-txt m-fs-italic
+                font-style: italic
+            ),
+            fs-oblique:(
+                //c-txt m-fs-oblique
+                font-style: oblique
+            ),
+            //display modifier
+            d-block:(
+                //c-txt m-d-block
+                display: block
+            ),
+            d-table:(
+                //c-txt m-d-table
+                display: table
+            ),
+            d-table-row:(
+                //c-txt m-d-table-row
+                display: table-row
+            ),
+            d-list-item:(
+                //c-txt m-d-list-item
+                display: list-item
+            ),
+            d-inline:(
+                //c-txt m-d-inline
+                display: inline
+            ),
+            d-inline-block:(
+                //c-txt m-d-inline-block
+                display: inline-block
+            ),
+            d-flex:(
+                //c-txt m-d-flex
+                display: flex
+            ),
+            d-inline-flex:(
+                //c-txt m-d-inline-flex
+                display: inline-flex
+            ),
+            d-grid:(
+                //c-txt m-d-grid
+                display: grid
+            ),
+            d-inline-grid:(
+                //c-txt m-d-inline-grid
+                display: inline-grid
+            ),
+            d-flow-root:(
+                //c-txt m-d-flow-root
+                display: flow-root
+            ),
+            d-none:(
+                //c-txt m-d-none
+                display: none
+            ),
+            d-contents:(
+                //c-txt m-d-contents
+                display: contents
+            ),
+            d-table:(
+                //c-txt m-d-table
+                display: table
+            ),
+            d-table-row:(
+                //c-txt m-d-table-row
+                display: table-row
+            ),
+            d-list-item:(
+                //c-txt m-d-list-item
+                display: list-item
+            ),
+        ))
+))
+;

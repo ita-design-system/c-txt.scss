@@ -6,23 +6,23 @@ order: 300
 ---
 ```html
 
-<div class="c-txt m-d-block">Texte test pour le modifieur vertical-align baseline</div>
-<div class="c-txt m-d-table">Texte test pour le modifieur vertical-align sub : aligne la ligne de base sur la ligne de base inférieure</div>
-<div class="c-txt m-d-table-row">Texte test pour le modifieur vertical-align super : aligne la ligne de base sur la ligne de base supérieure</div>
-<div class="c-txt m-d-list-item">Texte test pour le modifieur vertical-align text-top : aligne le haut de l'élément avec le haut de la police de l'élément parent</div>
-<div class="c-txt m-d-inline">Texte test pour le modifieur vertical-align text-bottom : aligne le bas de l'élément avec le bas de la police de l'élément parent.</div>
-<div class="c-txt m-d-inline-block">Texte test pour le modifieur vertical-align middle : aligne le milieu de l'élément avec la hauteur donnée par la ligne de base de l'élément parent à laquelle on ajoute la moitié de sa hauteur en x.</div>
-<div class="c-txt m-d-flex">Texte test pour le modifieur vertical-align top : aligne le haut de l'élément et de ses descendants avec le haut de la ligne entière.</div>
-<div class="c-txt m-d-inline-flex">Texte test pour le modifieur vertical-align bottom : aligne le bas de l'élément et de ses descendants avec le bas de la ligne entière.</div>
-<div class="c-txt m-d-table-row">Texte test pour le modifieur vertical-align super : aligne la ligne de base sur la ligne de base supérieure</div>
-<div class="c-txt m-d-grid">Texte test pour le modifieur vertical-align text-top : aligne le haut de l'élément avec le haut de la police de l'élément parent</div>
-<div class="c-txt m-d-inline-grid">Texte test pour le modifieur vertical-align text-bottom : aligne le bas de l'élément avec le bas de la police de l'élément parent.</div>
-<div class="c-txt m-d-flow-root">Texte test pour le modifieur vertical-align middle : aligne le milieu de l'élément avec la hauteur donnée par la ligne de base de l'élément parent à laquelle on ajoute la moitié de sa hauteur en x.</div>
-<div class="c-txt m-d-none">Texte test pour le modifieur vertical-align top : aligne le haut de l'élément et de ses descendants avec le haut de la ligne entière.</div>
-<div class="c-txt m-d-contents">Texte test pour le modifieur vertical-align bottom : aligne le bas de l'élément et de ses descendants avec le bas de la ligne entière.</div>
-<div class="c-txt m-d-table">Texte test pour le modifieur vertical-align middle : aligne le milieu de l'élément avec la hauteur donnée par la ligne de base de l'élément parent à laquelle on ajoute la moitié de sa hauteur en x.</div>
-<div class="c-txt m-d-table-row">Texte test pour le modifieur vertical-align top : aligne le haut de l'élément et de ses descendants avec le haut de la ligne entière.</div>
-<div class="c-txt m-d-list-item">Texte test pour le modifieur vertical-align bottom : aligne le bas de l'élément et de ses descendants avec le bas de la ligne entière.</div>
+<div class="c-txt m-d-block">Texte test pour le modifieur display block</div>
+<div class="c-txt m-d-table">Texte test pour le modifieur display table</div>
+<div class="c-txt m-d-table-row">Texte test pour le modifieur display table-row</div>
+<div class="c-txt m-d-list-item">Texte test pour le modifieur display list-item</div>
+<div class="c-txt m-d-inline">Texte test pour le modifieur display inline</div>
+<div class="c-txt m-d-inline-block">Texte test pour le modifieur display inline-block</div>
+<div class="c-txt m-d-flex">Texte test pour le modifieur display flex</div>
+<div class="c-txt m-d-inline-flex">Texte test pour le modifieur display inline flex</div>
+<div class="c-txt m-d-table-row">Texte test pour le modifieur display table-row</div>
+<div class="c-txt m-d-grid">Texte test pour le modifieur display grid</div>
+<div class="c-txt m-d-inline-grid">Texte test pour le modifieur display inline-grid</div>
+<div class="c-txt m-d-flow-root">Texte test pour le modifieur display flow-root</div>
+<div class="c-txt m-d-none">Texte test pour le modifieur display none : <span class="c-txt m-d-none"></span></div>
+<div class="c-txt m-d-contents">Texte test pour le modifieur display contents</div>
+<div class="c-txt m-d-table">Texte test pour le modifieur display table</div>
+<div class="c-txt m-d-table-row">Texte test pour le modifieur display table-row</div>
+<div class="c-txt m-d-list-item">Texte test pour le modifieur display list-item</div>
 
 <!-- DEMO UNIQUEMENT -->
 <style>

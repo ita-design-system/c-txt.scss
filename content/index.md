@@ -3,16 +3,16 @@ layout: libdoc/page-codemirror
 permalink: index.html
 unlisted: true
 ---
-<section class="c-flex"
+<section class="c-txt"
     m-nowrap="sm,md,lg,xl">
-    <menu class="c-flex" 
+    <menu class="c-txt" 
         m-column="sm,md,lg,xl">
         <li><a href="#">Lien</a></li>
         <li><a href="#">Lien</a></li>
         <li><a href="#">Lien</a></li>
     </menu>
-    <header class="c-flex m-column">
-        <h1>c-flex</h1>
+    <header class="c-txt m-column">
+        <h1>c-txt</h1>
         <p>Composant CSS de grille flexbox polyvalent, cascadable et personnalisable en fonction du projet.</p>
     </header>
 </section>
@@ -27,10 +27,10 @@ unlisted: true
         line-height: 1.5rem;
         padding-bottom: 50vh;
     }
-    .c-flex {
+    .c-txt {
         background-color: var(--ita-color-primary-800);
     }
-    .c-flex > * {
+    .c-txt > * {
         background-color: var(--ita-color-primary-500);
         color: var(--ita-color-primary-900);
         border: var(--ita-border-6);

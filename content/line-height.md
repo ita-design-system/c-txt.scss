@@ -1,19 +1,17 @@
 ---
-title: Line-height
-description: Modifieurs c-txt pour la gestion des hauteurs de lignes.
+title: Hauteurs de ligne
+description: Modifieurs c-txt dédiés à la propriété line-height
 layout: libdoc/page-split
-order: 300
+order: 700
 ---
 ```html
-
-<div class="c-txt m-lh-0">Texte test pour le modifieur line-height 0</div>
-<div class="c-txt m-lh-1">Texte test pour le modifieur line-height 1 : 1 em</div>
-<div class="c-txt m-lh-2">Texte test pour le modifieur line-height 2 : 1.2 em</div>
-<div class="c-txt m-lh-3">Texte test pour le modifieur line-height 3 : 1.3 em</div>
-<div class="c-txt m-lh-4">Texte test pour le modifieur line-height 4 : 1.4 em</div>
-<div class="c-txt m-lh-5">Texte test pour le modifieur line-height 5 : 1.5 em</div>
-<div class="c-txt m-lh-6">Texte test pour le modifieur line-height 6 : 1.6 em</div>
-
+<p class="c-txt m-lh-0">m-lh-0<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-1">m-lh-1<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-2">m-lh-2<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-3">m-lh-3<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-4">m-lh-4<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-5">m-lh-5<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-lh-6">m-lh-6<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
@@ -23,23 +21,18 @@ order: 300
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
-        padding-bottom: 50vh;
+        min-height: 100vh;
     }
     .c-txt {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-txt > * {
         background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
-        border: var(--ita-border-6);
+        color: var(--ita-color-neutral-900);
         padding: var(--ita-spacing-4);
-    }
-    .c-txt + .c-txt {
-        margin-top: var(--ita-spacing-4);
-    }
-    .c-flex + h2 {
-        margin-top: var(--ita-spacing-12);
+        max-width: 30ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 ```
-{:.playground title="Modifieurs pour la hauteur des lignes"}
+{:.playground title="Modifieurs line-height"}
+
+

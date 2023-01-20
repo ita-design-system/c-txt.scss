@@ -1,16 +1,13 @@
 ---
-title: Text-Align
-description: Modifieurs c-txt pour l'alignement du texte
+title: Alignement horizontal
+description: Modifieurs c-txt dédiés à l'alignement horizontal
 layout: libdoc/page-split
-order: 300
+order: 200
 ---
 ```html
-
-<div class="c-txt m-ta-center">Texte test pour le modifieur alignement au centre</div>
-<div class="c-txt m-ta-left">Texte test pour le modifieur alignement à gauche</div>
-<div class="c-txt m-ta-right">Texte test pour le modifieur alignement à droite</div>
-<div class="c-txt m-ta-justify">Texte test pour le modifieur de justification du texte</div>
-
+<p class="c-txt m-ta-center">m-ta-center<br>Alignement centré</p>
+<p class="c-txt m-ta-right">m-ta-right<br>Alignement à droite</p>
+<p class="c-txt m-ta-justify">m-ta-justify<br>Alignement justifié<br>D'oiseaux pommes les embaumé fileur cieux bleu sourd hiver guidé épais, les ou sur l'aube de mur le exaltée de.Et lorem ea sea gubergren eirmod. Kasd sit aliquyam sit ut labore amet. Vero lorem sed aliquyam tempor kasd stet kasd erat, ipsum gubergren clita vero ut at, at invidunt invidunt sit elitr duo. Dolor kasd stet labore sed, aliquyam aliquyam accusam eirmod et et takimata. Diam et dolor sit.</p>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {
@@ -20,23 +17,15 @@ order: 300
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
-        padding-bottom: 50vh;
+        min-height: 100vh;
     }
     .c-txt {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-txt > * {
         background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
-        border: var(--ita-border-6);
+        color: var(--ita-color-neutral-900);
         padding: var(--ita-spacing-4);
-    }
-    .c-txt + .c-txt {
-        margin-top: var(--ita-spacing-4);
-    }
-    .c-flex + h2 {
-        margin-top: var(--ita-spacing-12);
     }
 </style>
 ```
-{:.playground title="Modifieurs pour l'alignement du texte"}
+{:.playground title="Modifieurs pour l'alignement horizontal"}
+
+

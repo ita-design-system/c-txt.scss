@@ -1,14 +1,13 @@
 ---
-title: Word-break
-description: Modifieurs c-txt pour word-break : définit la façon dont la césure s'applique pour les endroits où le texte dépasserait de sa boîte de contenu
+title: Césures
+description: Modifieurs c-txt dédiés aux césures
 layout: libdoc/page-split
-order: 300
+order: 800
 ---
 ```html
-<h2>Overflow</h2>
-<div class="c-txt m-wb-normal">Texte test pour le modifieur word-break normal</div>
-<div class="c-txt m-wb-break-all">Texte test pour le modifieur word-break break-all</div>
-<div class="c-txt m-wb-keep-all">Texte test pour le modifieur word-break keep-all</div>
+<p class="c-txt">Texte standard sans césure.<br>Sedsanctustempordiameoselitrclitatakimataverositseamagnadoloresloremgubergrendiam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-wb-break-all">m-wb-break-all<br>Césure. Sedsanctustempordiameoselitrclitatakimataverositseamagnadoloresloremgubergrendiam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
+<p class="c-txt m-wb-break-word">m-wb-break-word<br>Césure mot. Sedsanctustempordiameoselitrclitatakimataverositseamagnadoloresloremgubergrendiam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
 
 <!-- DEMO UNIQUEMENT -->
 <style>
@@ -19,24 +18,18 @@ order: 300
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
-        padding-bottom: 50vh;
+        min-height: 100vh;
     }
     .c-txt {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-txt > * {
         background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
-        border: var(--ita-border-6);
+        color: var(--ita-color-neutral-900);
         padding: var(--ita-spacing-4);
-        width: 150px;
-    }
-    .c-txt + .c-txt {
-        margin-top: var(--ita-spacing-4);
-    }
-    .c-flex + h2 {
-        margin-top: var(--ita-spacing-12);
+        max-width: 30ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 ```
-{:.playground title="Modifieurs pour word-break"}
+{:.playground title="Modifieurs césures"}
+
+

@@ -41,27 +41,20 @@ a le même effet que les classes CSS
 <style>
     body {
         padding: var(--ita-spacing-4);
-        background-color: var(--ita-color-primary-900);
-        color: var(--ita-color-primary-200);
+        background-color: var(--ita-color-primary-100);
+        color: var(--ita-color-primary-800);
         font-family: var(--ita-font-family-mono);
         font-size: 1rem;
         line-height: 1.5rem;
         padding-bottom: 50vh;
     }
     .c-txt {
-        background-color: var(--ita-color-primary-800);
-    }
-    .c-txt > * {
         background-color: var(--ita-color-primary-500);
-        color: var(--ita-color-primary-900);
-        border: var(--ita-border-6);
+        color: var(--ita-color-neutral-100);
         padding: var(--ita-spacing-4);
     }
     .c-txt + .c-txt {
         margin-top: var(--ita-spacing-4);
-    }
-    .c-txt + h2 {
-        margin-top: var(--ita-spacing-12);
     }
 </style>
 ```

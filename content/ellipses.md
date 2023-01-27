@@ -2,7 +2,7 @@
 title: Ellipses
 description: Modifieurs c-txt dédiés aux ellipses
 layout: libdoc/page-split
-order: 600
+order: 160
 ---
 ```html
 <p class="c-txt m-ellipsis">m-ellipsis<br>Ellipse 1 ligne. Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>

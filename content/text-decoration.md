@@ -2,7 +2,7 @@
 title: Text decoration
 description: Modifieurs c-txt dédiés à la propriété text-decoration
 layout: libdoc/page-split
-order: 400
+order: 140
 ---
 ```html
 <p class="c-txt m-td-underline">m-td-underline</p>

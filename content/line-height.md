@@ -2,7 +2,7 @@
 title: Hauteurs de ligne
 description: Modifieurs c-txt dédiés à la propriété line-height
 layout: libdoc/page-split
-order: 700
+order: 170
 ---
 ```html
 <p class="c-txt m-lh-0">m-lh-0<br>Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>

@@ -2,7 +2,7 @@
 title: Césures
 description: Modifieurs c-txt dédiés aux césures
 layout: libdoc/page-split
-order: 800
+order: 180
 ---
 ```html
 <p class="c-txt">Texte standard sans césure.<br>Sedsanctustempordiameoselitrclitatakimataverositseamagnadoloresloremgubergrendiam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>

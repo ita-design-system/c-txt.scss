@@ -2,7 +2,7 @@
 title: Alignement horizontal
 description: Modifieurs c-txt dédiés à l'alignement horizontal
 layout: libdoc/page-split
-order: 200
+order: 120
 ---
 ```html
 <p class="c-txt m-ta-center">m-ta-center<br>Alignement centré</p>

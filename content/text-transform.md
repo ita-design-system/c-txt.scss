@@ -2,7 +2,7 @@
 title: Text transform
 description: Modifieurs c-txt dédiés à la propriété text-transform
 layout: libdoc/page-split
-order: 500
+order: 150
 ---
 ```html
 <p class="c-txt m-tt-uppercase">m-tt-uppercase<br>conversion en majuscules</p>

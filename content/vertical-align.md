@@ -2,7 +2,7 @@
 title: Alignement vertical
 description: Modifieurs c-txt dédiés à l'alignement vertical
 layout: libdoc/page-split
-order: 300
+order: 130
 ---
 ```html
 <p>Paragraphe de texte pour illustrer <span class="c-txt m-va-top">m-va-top</span> dans un élément contenant du texte.</p>

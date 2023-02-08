@@ -8,7 +8,11 @@ order: 190
 <p class="c-txt m-ws-nowrap">m-ws-nowrap<br>Pas de retour à la ligne. Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
 <p class="c-txt m-antialiased">m-antialiased<br>Lissage de fonte. Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
 <p class="c-txt m-fstyle-italic">m-fstyle-italic<br>Italique. Sed sanctus tempor diam eos elitr, clita takimata vero sit sea magna dolores lorem gubergren diam. Et consetetur labore amet sadipscing justo magna, no diam dolor dolor eirmod diam clita.</p>
-
+<address class="c-txt m-fstyle-normal">
+    38 Bd Jean Jaurès,<br>
+    92 100 Boulogne-Billancourt<br>
+    France
+</address>
 <!-- DEMO UNIQUEMENT -->
 <style>
     body {

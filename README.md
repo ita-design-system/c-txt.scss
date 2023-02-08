@@ -119,6 +119,10 @@ $briks-components-generic: (
             fstyle-italic: (
                 font-style: italic
             ),
+            // c-txt m-fstyle-normal
+            fstyle-normal: (
+                font-style: normal
+            ),
             // ELLIPSE 1 ligne
             // c-txt m-ellipsis
             ellipsis: (

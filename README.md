@@ -15,7 +15,6 @@ Liste des propriétés CSS utilisées par le composant
 * [font-weight](https://developer.mozilla.org/fr/docs/Web/CSS/font-weight)
 * [letter-spacing](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing)
 * [line-height](https://developer.mozilla.org/fr/docs/Web/CSS/line-height)
-* [overflow](https://developer.mozilla.org/fr/docs/Web/CSS/overflow)
 * [text-align](https://developer.mozilla.org/fr/docs/Web/CSS/text-align)
 * [text-decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration)
 * [text-overflow](https://developer.mozilla.org/fr/docs/Web/CSS/text-overflow)
@@ -23,8 +22,6 @@ Liste des propriétés CSS utilisées par le composant
 * [vertical-align](https://developer.mozilla.org/fr/docs/Web/CSS/vertical-align)
 * [white-space](https://developer.mozilla.org/fr/docs/Web/CSS/white-space)
 * [word-break](https://developer.mozilla.org/fr/docs/Web/CSS/word-break)
-* [-webkit-box-orient](https://developer.mozilla.org/fr/docs/Web/CSS/box-orient)
-* [-webkit-line-clamp](https://developer.mozilla.org/fr/docs/Web/CSS/-webkit-line-clamp)
 
 
 ## Typologie d'un composant générique
@@ -124,29 +121,27 @@ $briks-components-generic: (
                 font-style: normal
             ),
             // ELLIPSE 1 ligne
-            // c-txt m-ellipsis
+            // Requiert c-dis et c-dim pour fonctionner
+            // c-txt m-ellipsis c-dim m-o-hidden
             ellipsis: (
                 white-space: nowrap,
-                text-overflow: ellipsis,
-                overflow: hidden
+                text-overflow: ellipsis
             ),
             // ELLIPSE 2 lignes
+            // A utiliser avec c-txt et c-dim
+            // c-dis m-webkit-box
+            // c-dim m-o-hidden
             // c-txt m-ellipsis-2
             ellipsis-2: (
-                overflow: hidden,
                 text-overflow: ellipsis,
-                display: -webkit-box,
-                '-webkit-box-orient': vertical,
-                '-webkit-line-clamp': 2
             ),
             // ELLIPSE 3 lignes
+            // A utiliser avec c-txt et c-dim
+            // c-dis m-webkit-box
+            // c-dim m-o-hidden
             // c-txt m-ellipsis-3
             ellipsis-3: (
-                overflow: hidden,
-                text-overflow: ellipsis,
-                display: -webkit-box,
-                '-webkit-box-orient': vertical,
-                '-webkit-line-clamp': 3
+                text-overflow: ellipsis
             ),
             // LINE HEIGHT
             // c-txt m-lh-0

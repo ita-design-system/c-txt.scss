@@ -9,7 +9,7 @@ order: 160
 <link rel="stylesheet" href="https://ita-design-system.github.io/c-dis.scss/content/css/c-dis.generic.css">
 <link rel="stylesheet" href="https://ita-design-system.github.io/c-dim.scss/content/css/c-dim.generic.css">
 
-<p>Important! Les ellipses requiert c-dis et c-dim pour fonctionner correctement.</p>
+<p>Important! Les ellipses requièrent c-dis et c-dim pour fonctionner correctement.</p>
 <p class="
     c-dis
     c-dim m-o-hidden

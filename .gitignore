@@ -12,3 +12,5 @@
 /.jekyll-cache
 .jekyll-metadata
 Gemfile.lock
+# PhpStorm
+/.idea

@@ -1,6 +1,6 @@
 /*
     C-TXT
-    v0.1.0
+    v0.2.0
     Composant générique CSS ITADS
     https://github.com/ita-design-system/c-txt.scss
 */
@@ -22,6 +22,17 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // HYPHENS Césures
+            // https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
+            hy-auto: (
+                hyphens: auto
+            ),
+            hy-manual: (
+                hyphens: manual
+            ),
+            hy-none: (
+                hyphens: none
+            ),
             // FONT WEIGHT
             // https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
             // 100 	Thin (Hairline)

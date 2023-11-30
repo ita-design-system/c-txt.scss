@@ -4,9 +4,27 @@
 
 Composant CSS dédié aux textes. 
 
+## Tableau des abréviations modifieurs
+
+Abréviations désignant les propriétés CSS utilisées dans la version courante.
+
+| Propriété CSS | Abréviation | Composant / modifieur associé | Utilitaire associé |
+|:-|:-|:-|:-|
+| font-family | `ff-` | `c-txt m-ff-` | `u-ff-` |
+| font-weight | `fw-` | `c-txt m-fw-` | `u-fw-` |
+| hyphens | `hy-` | `c-txt m-hy-` | `u-hy-` |
+| letter-spacing | `lsp-` | `c-txt m-lsp-` | `u-lsp-` |
+| line-height | `lh-` | `c-txt m-lh-` | `u-lh-` |
+| text-align | `ta-` | `c-txt m-ta-` | `u-ta-` |
+| text-decoration | `td-` | `c-txt m-td-` | `u-td-` |
+| text-transform | `tt-` | `c-txt m-tt-` | `u-tt-` |
+| vertical-align | `va-` | `c-txt m-va-` | `u-va-` |
+| word-break | `wb-` | `c-txt m-wb-` | `u-wb-` |
+| white-space | `ws-` | `c-txt m-ws-` | `u-ws-` |
+
 ## Scope
 
-Liste des propriétés CSS utilisées par le composant
+Liste des propriétés CSS prises en charge par le composant
 
 * column-count
 * column-fill
@@ -106,7 +124,7 @@ Organisation et description du fichier de configuration [_sass/_txt_generic.scss
 ```scss
 /*
     C-TXT
-    v0.1.0
+    v0.2.0
     Composant générique CSS ITADS
     https://github.com/ita-design-system/c-txt.scss
 */
@@ -128,6 +146,55 @@ $briks-components-generic: (
         // soit ajoutent des propriétés
         // soit les deux
         modifiers: ( 
+            // HYPHENS Césures
+            // https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
+            hy-auto: (
+                hyphens: auto
+            ),
+            hy-manual: (
+                hyphens: manual
+            ),
+            hy-none: (
+                hyphens: none
+            ),
+            // FONT WEIGHT
+            // https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
+            // 100 	Thin (Hairline)
+            // 200 	Extra Light (Ultra Light)
+            // 300 	Light
+            // 400 	Normal
+            // 500 	Medium
+            // 600 	Semi Bold (Demi Bold)
+            // 700 	Bold
+            // 800 	Extra Bold (Ultra Bold)
+            // 900 	Black (Heavy)
+            fw-900: (
+                font-weight: 900
+            ),
+            fw-800: (
+                font-weight: 800
+            ),
+            fw-700: (
+                font-weight: 700
+            ),
+            fw-600: (
+                font-weight: 600
+            ),
+            fw-500: (
+                font-weight: 500
+            ),
+            fw-400: (
+                font-weight: 400
+            ),
+            fw-300: (
+                font-weight: 300
+            ),
+            fw-200: (
+                font-weight: 200
+            ),
+            fw-100: (
+                font-weight: 100
+            ),
             // TEXT ALIGN
             // c-txt m-ta-left
             ta-left: (
@@ -236,7 +303,7 @@ $briks-components-generic: (
             lh-8:(
                 line-height: 1.8em
             ),
-            // c-txt m-lh-9
+            // c-txt m-lh-8
             lh-9:(
                 line-height: 1.9em
             ),

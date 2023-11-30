@@ -24,7 +24,8 @@ Abréviations désignant les propriétés CSS utilisées dans la version courant
 
 ## Scope
 
-Liste des propriétés CSS prises en charge par le composant
+<details>
+    <summary>Liste des propriétés CSS prises en charge par le composant</summary>
 
 * column-count
 * column-fill
@@ -96,7 +97,7 @@ Liste des propriétés CSS prises en charge par le composant
 * writing-mode
 * -moz-osx-font-smoothing
 * -webkit-font-smoothing
-
+</details>
 
 ## Typologie d'un composant générique
 

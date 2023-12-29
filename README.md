@@ -17,6 +17,7 @@ Abréviations désignant les propriétés CSS utilisées dans la version courant
 | line-height | `lh-` | `c-txt m-lh-` | `u-lh-` |
 | text-align | `ta-` | `c-txt m-ta-` | `u-ta-` |
 | text-decoration | `td-` | `c-txt m-td-` | `u-td-` |
+| text-shadow | `ts-` | `c-txt m-ts-` | `u-ts-` |
 | text-transform | `tt-` | `c-txt m-tt-` | `u-tt-` |
 | vertical-align | `va-` | `c-txt m-va-` | `u-va-` |
 | word-break | `wb-` | `c-txt m-wb-` | `u-wb-` |
